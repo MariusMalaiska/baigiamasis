@@ -307,7 +307,7 @@ margin-bottom: 20px;
 // -------------------------/social-------------------
 // -------------------------register-------------------
 .register {
-    min-height: 850px;
+    min-height: 920px;
     width: 100%;
 
    
@@ -315,7 +315,7 @@ margin-bottom: 20px;
 .img {
     background-image: url(christoffer-engstrom-503481-unsplash.jpg);
     background-size: 100% 933px;
-    height: 850px;
+    height: 920px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: initial; 
@@ -326,7 +326,7 @@ margin-bottom: 20px;
     content: ""; 
     position: absolute;
     width: 100%;
-    height: 850px;
+    height: 920px;
     background: rgb(226,120,102);
     background: linear-gradient(90deg, rgba(226,120,102,1) 0%, rgba(102,150,226,1) 100%); 
     opacity: 0.63;
@@ -336,17 +336,14 @@ margin-bottom: 20px;
 
 .container {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    text-align: center;
     align-self: center;
-   
    
     
     .middle {
         display: flex;
         flex-direction: column;
-        height: 780px;
+        height: 100%;
         width: 100%;
         justify-content: space-between;
         align-self: center;
@@ -354,17 +351,231 @@ margin-bottom: 20px;
         z-index: 3;
 
 .buttons {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     justify-content: space-between;
-    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    // border: 2px solid red;
+    z-index: 3;
+ 
+    
+    .swiper-pagination-bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+        line-height: 10px;
+        font-size: 14px;
+        color:#FFFFFF;
+        opacity: 1;
+        margin: 0px 0px 0 20px ;
+        background: #A37169;
+       
+       
+      
+    }
+        .button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-left: 20px;
+    
+    }
+}
+.show{
+    position: relative;
+    width: 400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 2px solid red;
+    margin-left: 10px;
+    margin-top: 0px;
+
+.s1 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+       .swiper-wrapper{
+         display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+                    .swiper-slide{
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-between;
+                         
+                        // justify-content: center;
+                        // align-items: center;
+.text {
+    max-width: 517px;
     min-height: 1px;
     z-index: 3;
+    align-self: center;
+    // border: 2px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+
+
+    h2{
+        color: #FFFFFF;
+        font-size: 25px;
+       margin-bottom: 20px;
+    }
+
+    a {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+   
+}
+.images{
+    align-self: center;
+    max-width: 360px;
+    max-height: 360px;
+    z-index: 3;
+    // border: 2px solid black;
+
+    .firstrow {
+        display: flex;
+        justify-content: space-between;
+        width: 360px;
+        height: 168px; 
+        // border: 2px solid black;
+        margin-bottom: 20px;
+
+    .image1{
+        width: 167px;
+        height: 167px;
+        background-image: url(photo-1493409137604-0901c55e4456.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-position: -10px -7px; 
+
+        
+    }
+
+    .image1:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image1:hover::after {
+        content: "Explore"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
     
+    .image2{
+        width: 167px;
+        height: 167px;
+        background-image: url(photo-1543364195-bfe6e4932397.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-position: -10px -5px; 
+    }
+
+    .image2:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image2:hover::after {
+        content: "Cutted vegetables"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 167px;
+        height: 167px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
+    }
+    .image3{
+        width: 362px;
+        height: 177px;
+        background-image: url(photo-1448387473223-5c37445527e7.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: -10px -5px; 
+    }
+    .image3:hover::before {
+        content: ""; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+        height: 177px;
+        background-color: #E27866; 
+        color: #FFFFFF;
+        opacity: 0.8;
+        z-index: 2;
+    }
+    .image3:hover::after {
+        content: "Some Shoes"; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+        height: 177px;
+        color: #FFFFFF;
+        z-index: 4;
+        
+    }
 }
 }
 }
+}
+}
+}
+}
+
+
 // -------------------------/register-------------------
 // -------------------------Erattempor-------------------
 .Erattempor {
@@ -763,6 +974,184 @@ margin-bottom: 20px;
 }
 // -------------------------1050---------------------------------------------------------
 @media (max-width:1050px){
+    // -------------------------register-------------------
+.register {
+    min-height: 920px;
+    width: 100%;
+
+   
+
+.img {
+    background-image: url(christoffer-engstrom-503481-unsplash.jpg);
+    background-size: 100% 933px;
+    height: 920px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: initial; 
+    background-position: 0px 0px;
+    z-index: 1;
+}
+.img::before {
+    content: ""; 
+    position: absolute;
+    width: 100%;
+    height: 920px;
+    background: rgb(226,120,102);
+    background: linear-gradient(90deg, rgba(226,120,102,1) 0%, rgba(102,150,226,1) 100%); 
+    opacity: 0.63;
+    z-index: 2;
+}
+}
+
+.container {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+   
+    
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        align-self: center;
+        margin-top:40px; 
+        z-index: 3;
+
+.buttons {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 120px;
+    // border: 2px solid red;
+    z-index: 3;
+ 
+    
+    .swiper-pagination-bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+        line-height: 10px;
+        font-size: 14px;
+        color:#FFFFFF;
+        opacity: 1;
+        margin: 0px 0px 0 20px ;
+        background: #A37169;
+       
+       
+      
+    }
+        .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+        margin-left: 20px;
+    
+    }
+}
+.show{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 2px solid red;
+    margin-left: 10px;
+    margin-top: 0px;
+
+.s1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+       .swiper-wrapper{
+         display: flex;
+
+       
+
+                    .swiper-slide{
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-between;
+                         
+                        // justify-content: center;
+                        // align-items: center;
+.text {
+    max-width: 517px;
+    min-height: 1px;
+    z-index: 3;
+    align-self: center;
+    // border: 2px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+
+
+    h2{
+        color: #FFFFFF;
+        font-size: 25px;
+       margin-bottom: 20px;
+    }
+
+    a {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+   
+}
+.images{
+    align-self: center;
+    max-width: 360px;
+    max-height: 360px;
+    z-index: 3;
+    // border: 2px solid black;
+
+    .firstrow {
+        display: flex;
+        justify-content: space-between;
+        width: 360px;
+        height: 168px; 
+        // border: 2px solid black;
+        margin-bottom: 20px;
+
+    
+
+    }
+}
+                    }
+                }
+            }
+}
+}
+}
+
+
+// -------------------------/register-------------------
 // -------------------------pricing-------------------
 .pricing {
     height: 1700px;

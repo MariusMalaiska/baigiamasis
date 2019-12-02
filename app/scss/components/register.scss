@@ -43,22 +43,50 @@
 
 .buttons {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
     justify-content: space-between;
-    max-width: 100px;
+    width: 110px;
     min-height: 235px;
+    // border: 2px solid red;
     z-index: 3;
+ 
     
+    .swiper-pagination-bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        border-radius: 0;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 10px;
+        font-size: 14px;
+        color:#FFFFFF;
+        opacity: 1;
+        margin: 20px 30px 0 0;
+        background: #A37169;
+       
+       
+      
+    }
     
  
-    .button {
-        display: flex;
-        justify-content: center;
+        .button {
         align-items: center;
         width: 100px;
         height: 100px;
-        margin: 0 20px 0 0;
-        background-color: #A37169;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+        
+        
+        
+
     
     
 
@@ -71,7 +99,31 @@
         }
     }
 }
+.show{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 2px solid red;
+    margin-left: 100px;
+    margin-top: 20px;
 
+.s1 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+       .swiper-wrapper{
+         display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+                    .swiper-slide{
+                         display: flex;
+                        // justify-content: center;
+                        // align-items: center;
 .text {
     max-width: 517px;
     min-height: 1px;
@@ -122,6 +174,19 @@
 
         
     }
+    .photo1{
+        background-image: url(cabige1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo4{
+        background-image: url(cabige2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+  
 
     .image1:hover::before {
         content: ""; 
@@ -158,7 +223,19 @@
         background-position: center; 
         background-position: -10px -5px; 
     }
-
+    
+    .photo2{
+        background-image: url(product.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo5{
+        background-image: url(product2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
     .image2:hover::before {
         content: ""; 
         position: absolute;
@@ -218,6 +295,23 @@
         z-index: 4;
         
     }
+    .photo3{
+        background-image: url(shoe.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
+    .photo6{
+        background-image: url(shoe2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 0; 
+    }
 }
 }
 }
+}
+}
+}
+}
+

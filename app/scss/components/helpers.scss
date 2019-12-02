@@ -2,6 +2,8 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    scroll-behavior: smooth;
+
 }
 
 :root {
@@ -117,3 +119,23 @@
         
       }
 }
+// -----------------------------------------
+.btn{
+    position: relative;
+  }
+  .btn:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 20px;
+    display: block;
+    margin-top: 20px;
+    right: 0;
+    background: #E27866;
+    transition: .5s ease;
+  }
+  .btn:hover:after{
+    width: 100%;
+    left: 0;
+    background: #E27866;
+  }

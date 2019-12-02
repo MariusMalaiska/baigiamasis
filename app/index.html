@@ -20,17 +20,17 @@
                 <div class="desktop">
                     <ul>
                         <li>
-                            <a href="">Features</a>
-                            <a href="">About</a>
-                            <a href="">Pricing</a>
-                            <a href="">Reviews</a>
-                            <a href="">Contact</a>
+                            <a class="btn" href="#register">Features</a>
+                            <a class="btn" href="#Erattempor">About</a>
+                            <a class="btn" href="#pricing">Pricing</a>
+                            <a class="btn" href="#slider">Reviews</a>
+                            <a class="btn" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="mobilemenu">
                     <div class="menu-wrap">
-                        <input type="checkbox" class="toggler">
+                        <input type="checkbox" class="toggler" id="toggler">
                         <div class="hamburger">
                             <div></div>
                         </div>
@@ -39,11 +39,11 @@
                                 <div>
                                     <nav>
                                         <ul>
-                                            <li class="a1"> <a href=""> Features</a></li>
-                                            <li class="a2">About</li>
-                                            <li class="a3">Pricing</li>
-                                            <li class="a4">Reviews</li>
-                                            <li class="a5">Contact</li>
+                                            <li> <a onclick="uncheck()" href="#register">Features</a></li>
+                                            <li> <a onclick="uncheck()" href="#Erattempor">About</a></li>
+                                            <li> <a onclick="uncheck()" href="#pricing">Pricing</a></li>
+                                            <li> <a onclick="uncheck()" href="#slider">Reviews</a></li>
+                                            <li> <a onclick="uncheck()" href="#contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -112,16 +112,16 @@
         </div>
     </section>
     <!-- ---------------------------social------------------------ -->
-    <section data-target="social" class="social">
+    <section data-target="social" class="social section2">
         <div class="container">
             <div class="text">
                 <h3>Social Media</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean euismod bibendum laoreet.</p>
             </div>
             <ul>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.facebook.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16.219" height="30" viewBox="0 0 16.219 30">
                             <g class="svg-fill" opacity="0.653">
                                 <path id="Path_63" data-name="Path 63"
@@ -132,7 +132,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.instagram.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
                             <g class="svg-fill" opacity="0.653">
                                 <path id="Path_64" data-name="Path 64"
@@ -149,7 +149,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://twitter.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36.066" height="30" viewBox="0 0 36.066 30">
                             <path class="svg-fill"
                                 d="M35.492,37.981a14.281,14.281,0,0,1-2.487.839,7.754,7.754,0,0,0,2.047-3.259h0a.407.407,0,0,0-.595-.474h0a14.349,14.349,0,0,1-3.8,1.571.969.969,0,0,1-.238.03,1.008,1.008,0,0,1-.666-.254,7.775,7.775,0,0,0-5.145-1.942,8.313,8.313,0,0,0-2.463.38A7.533,7.533,0,0,0,17.068,40.3a8.3,8.3,0,0,0-.184,2.863.278.278,0,0,1-.07.218.288.288,0,0,1-.214.1h-.028A20.388,20.388,0,0,1,2.558,35.989h0a.407.407,0,0,0-.666.052h0a7.784,7.784,0,0,0,1.265,9.451,6.968,6.968,0,0,1-1.773-.687h0a.407.407,0,0,0-.6.35h0a7.785,7.785,0,0,0,4.541,7.173l-.166,0a7,7,0,0,1-1.31-.125h0a.407.407,0,0,0-.463.523h0a7.793,7.793,0,0,0,6.155,5.3A14.348,14.348,0,0,1,1.5,60.47H.6a.6.6,0,0,0-.582.449.616.616,0,0,0,.295.681,21.341,21.341,0,0,0,10.724,2.891A21.634,21.634,0,0,0,20.2,62.547a20.237,20.237,0,0,0,6.705-5.025,22.029,22.029,0,0,0,4.106-6.876,21.722,21.722,0,0,0,1.4-7.526V43a1.323,1.323,0,0,1,.5-1.03A15.369,15.369,0,0,0,36,38.578h0a.407.407,0,0,0-.5-.6Z"
@@ -158,7 +158,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.pinterest.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24.374" height="30" viewBox="0 0 24.374 30">
                             <g class="svg-fill" opacity="0.653">
                                 <g id="Group_20" data-name="Group 20">
@@ -171,7 +171,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.telia.lt/privatiems" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30.003" height="30" viewBox="0 0 30.003 30">
                             <g id="Group_87" class="svg-fill" data-name="Group 87" opacity="0.653">
                                 <path id="Path_68" data-name="Path 68"
@@ -192,46 +192,87 @@
     </section>
     <!-- ---------------------------/social------------------------ -->
     <!-- ---------------------------register------------------------ -->
-    <section class="register">
+    <section class="register" id="register">
         <div class="img">
             <div class="container">
                 <div class="middle">
                     <div class="buttons">
-                        <div class="button">
-                            <a href="">REGISTER</a>
-                        </div>
-                        <div class="button">
-                            <a href="">APPLY</a>
-                        </div>
-                        <div class="button">
-                            <a href="">RECEIVE</a>
-                        </div>
+                        <div class="button swiper-pagination"></div>
                     </div>
-                    <div class="text">
-                        <h2>Tabs with soft transitioning
-                            effect. Explained propriety
-                            of out perpetual his you.</h2>
-                        <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                            penatibus et magnis dis parturient montes.
+                    <div class="show">
+                        <div class="swiper-container s1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <h2>Tabs with soft transitioning
+                                            effect. Explained propriety
+                                            of out perpetual his you.</h2>
+                                        <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                            penatibus et magnis dis parturient montes.
 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                            bibendum laoreet.</a>
-                    </div>
-                    <div class="images">
-                        <div class="firstrow">
-                            <div class="image1"></div>
-                            <div class="image2"></div>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            bibendum laoreet.</a>
+                                    </div>
+                                    <div class="images">
+                                        <div class="firstrow">
+                                            <div class="image1 photo4"></div>
+                                            <div class="image2 photo5"></div>
+                                        </div>
+                                        <div class="image3 photo6"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <h2>Tabs with soft transitioning
+                                            effect. Explained propriety
+                                            of out perpetual his you.</h2>
+                                        <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                            penatibus et magnis dis parturient montes.
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            bibendum laoreet.</a>
+                                    </div>
+                                    <div class="images">
+                                        <div class="firstrow">
+                                            <div class="image1"></div>
+                                            <div class="image2"></div>
+                                        </div>
+                                        <div class="image3"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <h2>Tabs with soft transitioning
+                                            effect.</h2>
+                                        <a>amet lacus accumsan et viverra
+                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                            penatibus et magnis dis parturient montes.
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                            bibendum laoreet.</a>
+                                    </div>
+                                    <div class="images">
+                                        <div class="firstrow">
+                                            <div class="image1 photo1"></div>
+                                            <div class="image2 photo2"></div>
+                                        </div>
+                                        <div class="image3 photo3"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="image3"></div>
                     </div>
+
                 </div>
             </div>
     </section>
     <!-- ---------------------------/register------------------------ -->
     <!-- ---------------------------Erattempor------------------------ -->
-    <div class="Erattempor">
+    <div class="Erattempor" id="Erattempor">
         <div class="container">
             <div class="logo">
                 <img src="icon.svg" alt="">
@@ -316,8 +357,8 @@
     </section>
     <!-- ---------------------------/awesome------------------------ -->
     <!-- ---------------------------Pricing------------------------ -->
-    <section class="pricing">
-        <div class="container">
+    <section class="pricing" id="pricing">
+        <div class=" container">
             <div class="text">
                 <h3>PRICING OPTIONS</h3>
                 <div class="line"></div>
@@ -388,14 +429,14 @@
     </section>
     <!-- ---------------------------/Pricing------------------------ -->
     <!-- ---------------------------slider------------------------ -->
-    <section class="slider">
+    <section class="slider" id="slider">
         <div class="container">
             <div class="text">
                 <h3>WHAT OUR CUSTOMERS ARE SAYING</h3>
                 <div class="line"></div>
             </div>
             <div class="slide">
-                <div class="swiper-container">
+                <div class="swiper-container s2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <ul class="chat">
@@ -438,17 +479,16 @@
                                     expedita.</li>
                             </ul>
                         </div>
-
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
     </section>
 
     <!-- ---------------------------/slider------------------------ -->
     <!-- ---------------------------contact------------------------ -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="text">
                 <h3>CONTACT US</h3>
@@ -494,7 +534,7 @@
             </div>
             <ul>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.facebook.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16.219" height="30" viewBox="0 0 16.219 30">
                             <g class="svg-fill" opacity="0.653">
                                 <path id="Path_63" data-name="Path 63"
@@ -505,7 +545,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.instagram.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
                             <g class="svg-fill" opacity="0.653">
                                 <path id="Path_64" data-name="Path 64"
@@ -522,7 +562,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://twitter.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36.066" height="30" viewBox="0 0 36.066 30">
                             <path class="svg-fill"
                                 d="M35.492,37.981a14.281,14.281,0,0,1-2.487.839,7.754,7.754,0,0,0,2.047-3.259h0a.407.407,0,0,0-.595-.474h0a14.349,14.349,0,0,1-3.8,1.571.969.969,0,0,1-.238.03,1.008,1.008,0,0,1-.666-.254,7.775,7.775,0,0,0-5.145-1.942,8.313,8.313,0,0,0-2.463.38A7.533,7.533,0,0,0,17.068,40.3a8.3,8.3,0,0,0-.184,2.863.278.278,0,0,1-.07.218.288.288,0,0,1-.214.1h-.028A20.388,20.388,0,0,1,2.558,35.989h0a.407.407,0,0,0-.666.052h0a7.784,7.784,0,0,0,1.265,9.451,6.968,6.968,0,0,1-1.773-.687h0a.407.407,0,0,0-.6.35h0a7.785,7.785,0,0,0,4.541,7.173l-.166,0a7,7,0,0,1-1.31-.125h0a.407.407,0,0,0-.463.523h0a7.793,7.793,0,0,0,6.155,5.3A14.348,14.348,0,0,1,1.5,60.47H.6a.6.6,0,0,0-.582.449.616.616,0,0,0,.295.681,21.341,21.341,0,0,0,10.724,2.891A21.634,21.634,0,0,0,20.2,62.547a20.237,20.237,0,0,0,6.705-5.025,22.029,22.029,0,0,0,4.106-6.876,21.722,21.722,0,0,0,1.4-7.526V43a1.323,1.323,0,0,1,.5-1.03A15.369,15.369,0,0,0,36,38.578h0a.407.407,0,0,0-.5-.6Z"
@@ -531,7 +571,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.pinterest.com/" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24.374" height="30" viewBox="0 0 24.374 30">
                             <g class="svg-fill" opacity="0.653">
                                 <g id="Group_20" data-name="Group 20">
@@ -544,7 +584,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.telia.lt/privatiems" class="social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30.003" height="30" viewBox="0 0 30.003 30">
                             <g id="Group_87" class="svg-fill" data-name="Group 87" opacity="0.653">
                                 <path id="Path_68" data-name="Path 68"

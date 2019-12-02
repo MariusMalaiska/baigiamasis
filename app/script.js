@@ -1,4 +1,4 @@
-var mySwiper1 = new Swiper('.swiper-container', {
+var mySwiper1 = new Swiper('.s2', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -29,4 +29,27 @@ var mySwiper1 = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 })
+
+// -----------------------uncheck mobile menu by link press------------------
+
+function uncheck() {
+    document.getElementById("toggler").checked = false;
+}
+
+// -----------------------------------------
+var menu = ['REGISTER', 'APPLY', 'RECEIVE']
+var swiper1 = new Swiper('.s1', {
+    direction: 'vertical',
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: false,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (menu[index]) + '</span>';
+        },
+    },
+})
+
 
