@@ -9,29 +9,38 @@ header {
     z-index: 999;
 
     .container {
-        display: flex;
-        justify-content: space-between;
+   
 
-        .logo {
+        .largemenu{ 
             display: flex;
-            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+    
+              .logo {
+                 display: flex;
+                 align-items: center;
+                }
+                .desktop {
+                        ul {
+                        display: flex;
+                        list-style: none;
+                        text-decoration: none;
+                        align-items: center;
+                        margin: 25px;
+                        cursor: pointer;
+
+                 li {
+                     a {
+                    color: #FFFFFF;
+                    font-size: 14px;
+                    padding: 10px;
+                    text-decoration: none;
+                    margin: 0  0 0 25px;
+                    font-weight: 400;
+                       }
+                     } 
+                    }
+                  }
+               }
+          }
         }
-
- ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    cursor: pointer;
-
-    li {
-    color: #FFFFFF;
-    list-style-type: none;
-    font-size: 14px;
-    margin: 25px;
-    font-weight: 400;
-
-     } 
-  }
-}
-}
-

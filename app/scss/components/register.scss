@@ -74,20 +74,25 @@
 
 .text {
     max-width: 517px;
-    max-height: 295px;
+    min-height: 1px;
     z-index: 3;
     align-self: center;
+    // border: 2px solid red;
+    box-sizing: border-box;
+    padding: 20px;
 
 
     h2{
         color: #FFFFFF;
         font-size: 30px;
+       margin-bottom: 20px;
     }
 
     a {
         color: #FFFFFF;
         font-size: 14px;
         font-weight: 400;
+        
     }
    
 }
